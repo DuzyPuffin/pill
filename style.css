@@ -9,14 +9,14 @@
 .okienka {
     width: 90%;
     margin: 50px auto;
-    height: 300px;
+    height: auto;
     background-color: lightgray;
     border-radius: 75px;
     box-shadow: 0px 25px 50px gray;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .okienka h2 {
@@ -26,4 +26,12 @@
 
 .okienka p {
     font-size: 30px;
+}
+
+.okienka img {
+    object-fit: cover;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 75px;
 }
